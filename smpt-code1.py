@@ -1,5 +1,5 @@
 import smtplib
-
+#This code is written by Kulbhushan Karn
 to=input("Enter To Email-id")
 sub=input("Enter subject")
 Meg=input("Enter Message")
