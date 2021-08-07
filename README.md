@@ -60,7 +60,7 @@ You can use Python’s built-in `smtplib` module to send email using SMTP (Simpl
 
 1. Set up a Gmail account for sending your emails. Since you’ll be feeding a plaintext password to the program, Google considers the SMTP connection less secure. 
 
-2. Go to the account settings and allow less secure apps to access the account. As an aside, Gmail doesn't necessarily use SMTP on their internal mail servers; however, Gmail SMTP is an interface enabled by Google's smtp.gmail.com server. You might find smtp.gmail.com in email clients like Thunderbird, Outlook, and others.
+2. Go to the account settings and allow *less secure apps* to access the account. As an aside, Gmail doesn't necessarily use SMTP on their internal mail servers; however, Gmail SMTP is an interface enabled by Google's smtp.gmail.com server. You might find smtp.gmail.com in email clients like Thunderbird, Outlook, and others.
 
 3. Import `smtplib`. Since Python comes pre-packaged with `smtplib`, all you have to do is create a Python file and import `smtplib` into it. 
 
