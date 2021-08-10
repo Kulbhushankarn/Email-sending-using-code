@@ -69,4 +69,15 @@ You can use Python’s built-in `smtplib` module to send email using SMTP (Simpl
 To send email through `SMTP_SSL()`:
 
 
+# Tutorial: How to send emails using a transactional email service in Python
+If you need to send a high volume of transactional emails or optimize deliverability, consider using a transactional email service. There are many to choose from, including Amazon SES, Mailgun, and Postmark, and the vast majority support Python. 
 
+In this tutorial, I’m going to use SendGrid, one of the most popular email APIs. What sets a service like SendGrid apart from SMTP are the out-of-the box features. SendGrid offers easy integration with a simple API, email analytics, round-the-clock support, and high deliverability rates.
+
+Setting up SendGrid with Python is a fairly simple process:
+
+1.Create an account with SendGrid. SendGrid’s free plan includes 100 emails per day.
+
+2.Generate and store a SendGrid API key and provide full access to *Mail Send* permissions.
+
+3.Create a Python script and start using the API.
